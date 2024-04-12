@@ -89,7 +89,7 @@ green_palette = sns.light_palette("green", n_colors=num_colors) # Se crea una nu
 sns.barplot(x=hosts_sorted, y=countries_sorted, ax=axs[1,0], palette = green_palette, orient='h') # Se genera el gráfico, donde se asigna al atributo 'palette' la variable que contiene la nueva paleta de color
 ```
 Como resultado obtuve este gráfico que ayuda a visualizar de manera más atractiva el incremento del número de países:
-
+![alt text](https://github.com/diegobenjaminvargas/Hostname-Dataset/blob/main/seaborn_green_graphic.png)
 
 ## Conclusiones
-Fue una práctica entretenida que, a pesar de hacerme reforzar todos los fundamentos de Python aprendidos en el módulo de Programación Básica, también me invitó a investigar y aprender por mi propia cuenta para optimizar y entregar un mejor resultado. 
+Esta práctica me ayudó a solidificar muchos aprendizajes adquiridos tanto en el módulo anterior, 'Python básico', como en 'Python Avanzado'. Generar una base de datos con *hostnames* definitivamente fue un reto muy entretenido en el que tuve que investigar y experimentar por mi cuenta con nuevas funciones y nuevas librerías, así como aprender sobre diferentes usos de las variables en las funciones. Personalmente me sentí satisfecho con el resultado final y más aún cuando vi que mi trabajo mereció una calificación de 10/10. 
